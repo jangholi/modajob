@@ -1,6 +1,6 @@
 ## Getting Started
 
-####run the development server:
+#### Run the development server:
 
 ```bash
 npm run dev
@@ -15,7 +15,7 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 
 
-####install the project dependency
+#### Install the project dependency
 ```bash
 npm install
 ```
@@ -23,9 +23,13 @@ project node version added in package.json
 
 
 
-####run the production server:
+#### Run the production server:
 ```bash
 npm run build
 ```
 this command build the out directory and we can serve this directory.
 
+#### Runs the built app in production mode.
+```bash
+npm run start
+```
