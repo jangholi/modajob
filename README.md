@@ -13,13 +13,19 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+
+
 ####install the project dependency
 ```bash
 npm install
 ```
+project node version added in package.json
+
+
 
 ####run the production server:
 ```bash
 npm run build
 ```
-this command build the out directory and we can serve this directory
+this command build the out directory and we can serve this directory.
+
