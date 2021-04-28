@@ -1,12 +1,5 @@
-@font-face {
-  font-family: DIN;
-  font-style: normal;
-  font-weight: 300;
-  src: url('/public/fonts/dinregularwebfont.eot');
-  src: url('/public/fonts/dinregularwebfont.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
-  url('/public/fonts/dinregularwebfont.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
-  url('/public/fonts/dinregularwebfont.ttf') format('truetype');
-}
+@import "variables";
+@import "fonts";
 
 html,
 body {
@@ -18,4 +11,8 @@ body {
 
 .full-height{
   height: 80vh !important;
+}
+
+.orange-color{
+  color: $orange;
 }
