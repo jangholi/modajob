@@ -1,0 +1,94 @@
+@import "variables";
+.footer{
+  background-color: black;
+  width: 100%;
+  padding: 40px;
+  color: white;
+
+  .footer-container{
+    max-width: 1400px;
+    width: 100%;
+  }
+
+  input, textarea{
+    color: black!important;
+    margin-bottom: 10px;
+    background-color: #454848!important;
+    border-radius: 0;
+    border: 0;
+    &:focus{
+      background-color: #454848!important;
+      color: black!important;
+    }
+    &:active{
+      background-color: #454848!important;
+      color: black!important;
+    }
+  }
+
+  .form-title{
+    font-size: 1.67rem;
+    font-weight: bold;
+    color: white;
+    font-family: DIN-Black;
+  }
+
+  ::-webkit-input-placeholder { /* Edge */
+    color: black;
+  }
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: black;
+  }
+  ::placeholder {
+    color: black;
+  }
+
+  .contact-info-title{
+    font-size: 0.83rem;
+    font-family: DIN-Bold;
+  }
+  .contact-info-text{
+    font-size: 0.74rem;
+  }
+  a{
+    font-size: 0.83rem;
+    color: $orange;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  .icon-container{
+    background-color: $orange;
+    width: fit-content;
+    display: inline;
+    margin: 4px;
+    border-radius: 16px;
+    padding: 2px 6px 4px 5px;
+  }
+  .address{
+    margin-bottom: 0;
+    margin-top: 25px;
+  }
+}
+
+.currentColor{
+  fill: $orange;
+}
+
+.sub-footer{
+  background-color: #454848;
+  width: 100%;
+  color: white;
+  padding: 20px 30px;
+  p{
+    margin: 0;
+  }
+  .left-container{
+    text-align: left;
+    font-size: 1.27rem;
+  }
+  .right-container{
+    text-align: right;
+    font-size: 0.7rem;
+  }
+}
