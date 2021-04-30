@@ -1,9 +1,8 @@
 import Head from 'next/head'
-import styles from '../styles/about.module.scss'
+import styles from '../styles/About.module.scss'
 import DefaultLayout from '../layout/default-layout'
 import Navbar from "../components/navbar";
 import React from "react";
-import Link from 'next/link'
 
 export default function About() {
   return (
