@@ -1,6 +1,13 @@
 @import "variables";
 @import "fonts";
 
+@media only screen and (max-width: 800px) {
+  html,
+  body {
+    font-size: 13px!important;
+  }
+}
+
 html,
 body {
   padding: 0;
@@ -23,6 +30,26 @@ body {
 .mt30{
   margin-top: 30px;
 }
+.mt2{
+  margin-top: 2px;
+}
+.mb2{
+  margin-bottom: 2px;
+}
 .m0{
   margin: 0!important;
+}
+.p40{
+  padding: 40px;
+}
+.sub-header{
+  width: 100%;
+  background-color: black;
+}
+
+.black-title{
+  font-size: 1.67rem;
+  font-weight: bold;
+  color: black;
+  font-family: DIN-Black;
 }

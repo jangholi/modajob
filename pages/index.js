@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <DefaultLayout headerImg='/headers/home-header.png'>
+      <DefaultLayout headerImg='/headers/home-header.png' title={['Properties in KingSton', '& surrounding areas']} >
         <div className={styles.container}>
           <Head>
             <title>Home Page</title>
@@ -17,8 +17,8 @@ export default function Home() {
           <main className={styles.main}>
 
               {/* sub header */}
-              <div className={styles['sub-header']}>
-                  <div className='row m0'>
+              <div className="sub-header">
+                  <div className={"row m0 " + styles.header}>
                       <div className={"col-md-6 col-sm-12"}>
                           <img src="/home-images/google.png" className='justify-content-center'/>
                       </div>
