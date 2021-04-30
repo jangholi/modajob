@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 function NavbarMenu() {
    return(
-       <Navbar className = {styles.navbar} expand="xs">
+       <Navbar className = {"align-self-center " + styles.navbar} expand="xs">
            <Navbar.Toggle aria-controls="basic-navbar-nav" />
            <Navbar.Collapse className={styles.collapse} id="basic-navbar-nav">
                <Nav className="mr-auto">

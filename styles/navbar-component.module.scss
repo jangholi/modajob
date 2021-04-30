@@ -3,8 +3,10 @@
 .navbar {
   text-align: right;
   display: block!important;
-  background-color: rgb(24 24 24);
+  background-color: #00000099;
   position: absolute;
+  top: 0;
+  z-index: 999;
   a{
     color: white!important;
     font-size: 0.92rem;
