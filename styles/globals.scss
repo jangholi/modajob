@@ -13,9 +13,16 @@ body {
   height: 80vh !important;
 }
 
+.full-width{
+  width: 100%;
+}
+
 .orange-color{
   color: $orange;
 }
 .mt30{
   margin-top: 30px;
+}
+.m0{
+  margin: 0!important;
 }
