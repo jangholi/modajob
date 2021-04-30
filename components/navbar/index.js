@@ -1,6 +1,6 @@
 import React from 'react'
-import {Navbar, Nav, NavDropdown} from 'react-bootstrap'
-import styles from '../../styles/navbar-component.module.scss'
+import {Navbar, Nav} from 'react-bootstrap'
+import styles from '../../styles/Navbar-component.module.scss'
 import Link from 'next/link'
 
 function NavbarMenu() {
