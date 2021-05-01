@@ -1,6 +1,14 @@
 @import "variables";
 @import "fonts";
 
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: DIN!important;
+}
+
 @media only screen and (max-width: 800px) {
   html,
   body {
@@ -8,12 +16,28 @@
   }
 }
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-size: 18px;
-  font-family: DIN!important;
+input, textarea, select{
+  color: black!important;
+  background-color: #454848!important;
+  border-radius: 0!important;
+  border: 0!important;
+  &:focus{
+    background-color: #454848!important;
+    color: black!important;
+  }
+  &:active{
+    background-color: #454848!important;
+    color: black!important;
+  }
+}
+::-webkit-input-placeholder { /* Edge */
+  color: black!important;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black!important;
+}
+::placeholder {
+  color: black!important;
 }
 
 .full-height{
@@ -45,6 +69,15 @@ body {
 .pt30{
   padding-top: 30px;
 }
+.pt15{
+  padding-top: 15px;
+}
+.pb15{
+  padding-bottom: 15px;
+}
+.pl40{
+  padding-left: 40px;
+}
 .sub-header{
   width: 100%;
   background-color: black;
@@ -55,4 +88,7 @@ body {
   font-weight: bold;
   color: black;
   font-family: DIN-Black;
+}
+.pull-right{
+  float: right;
 }

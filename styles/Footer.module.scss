@@ -24,22 +24,15 @@
       color: black!important;
     }
   }
+  input, textarea {
+    margin-bottom: 10px;
+  }
 
   .form-title{
     font-size: 1.67rem;
     font-weight: bold;
     color: white;
     font-family: DIN-Black;
-  }
-
-  ::-webkit-input-placeholder { /* Edge */
-    color: black;
-  }
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: black;
-  }
-  ::placeholder {
-    color: black;
   }
 
   .contact-info-title{
