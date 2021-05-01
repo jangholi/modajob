@@ -55,7 +55,7 @@ export default function PropertyManagement() {
                     </div>
 
                     {/* what landlords needs */}
-                    <div className='full-width'>
+                    <div className={'full-width ' + styles["gray-bg"]}>
                         <div className={"d-flex row m0 " + styles["about"]}>
                             <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
                                 <img src="/property-management/what-need.jpg" />
