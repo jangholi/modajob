@@ -1,0 +1,54 @@
+.about{
+  padding-top: 50px!important;
+  padding-bottom: 50px!important;
+  .about-left-section{
+    padding: 40px;
+    p{
+      font-size: 0.75rem;
+      margin-left: 35px;
+      &:nth-child(1){
+        font-size: 1.67rem;
+        font-weight: bold;
+        color: black;
+        font-family: DIN-Black;
+      }
+    }
+    a {
+      font-size: 0.75rem;
+      margin-left: 35px;
+      text-decoration: none;
+      cursor: pointer;
+      color: black;
+    }
+  }
+  .about-right-section{
+    padding: 0;
+    >img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: bottom;
+    }
+  }
+  .how-works-text{
+    padding-left: 60px;
+  }
+}
+.about-sub-header{
+  padding: 40px;
+  p{
+    color: white;
+    font-size: 0.85rem;
+    color: white;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  img{
+    width: 98px;
+    display: inline;
+    float: left;
+    margin-right: 23px;
+    margin-top: -36px;
+  }
+}
