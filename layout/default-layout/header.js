@@ -8,8 +8,8 @@ const Header = ({img, title}) => (
             <img src="/logo.png" alt=""/>
             <div className="d-flex full-height">
                 <p className='align-self-center'>
-                    {title[0]} <br />
-                    {title[1]}
+                    {title?.[0]} <br />
+                    {title?.[1]}
                 </p>
             </div>
         </div>
