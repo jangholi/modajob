@@ -7,8 +7,10 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <DefaultLayout headerImg='/images/header/home-header.png' title={['Properties in KingSton', '& surrounding areas']} >
-        <div className={styles.container}>
+      <DefaultLayout
+          headerImg='/images/header/home-header.png'
+          title={['PROPERTIES IN KINGSTON', '& SURROUNDING AREAS']} >
+        <div>
           <Head>
             <title>Home Page</title>
             <link rel="icon" href="/favicon.ico" />
