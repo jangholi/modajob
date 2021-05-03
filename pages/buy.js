@@ -23,7 +23,7 @@ export default function Buy() {
                         <div className={"row m0 " + styles.header}>
                             <div className={"col-md-1 col-sm-12"}>
                                 <p className={"orange-color " + styles.title}>
-                                    Buy
+                                    BUY
                                 </p>
                             </div>
                             <div className={"col-md-10 d-flex"}>
