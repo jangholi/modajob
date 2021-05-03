@@ -3,11 +3,10 @@ import styles from '../styles/Sell.module.scss'
 import DefaultLayout from '../layout/default-layout'
 import Navbar from "../components/navbar";
 import React from "react";
-import Link from "next/link";
 
 export default function Sell() {
     return (
-        <DefaultLayout headerImg='/headers/home-header.png' title={['SELL your property', 'WITH CARRINGTONS']} >
+        <DefaultLayout headerImg='/images/header/home-header.png' title={['SELL your property', 'WITH CARRINGTONS']} >
             <div>
                 <Head>
                     <title>Home Page</title>
@@ -20,7 +19,7 @@ export default function Sell() {
                     <div className="sub-header">
                         <div className='row m0'>
                             <div className={"col-md-1 col-sm-12 " + styles["about-sub-header"]}>
-                                <img src="/about-images/quots.png" />
+                                <img src="/images/quots.png" />
                             </div>
                             <div className={"col-md-9 col-sm-12 " + styles["about-sub-header"]}>
                                 <p>
@@ -37,7 +36,7 @@ export default function Sell() {
                     <div className='full-width'>
                         <div className={"d-flex row m0 " + styles["about"]}>
                             <div className={"col-md-1 col-sm-2 " + styles["about-sub-header"]}>
-                                <img src="/about-images/logo-icon.png" />
+                                <img src="/images/logo-icon.png" />
                             </div>
                             <div className={"col-md-5 col-sm-10 d-flex align-self-center " + styles['about-left-section']}>
                                 <div>
@@ -53,7 +52,7 @@ export default function Sell() {
                                 </div>
                             </div>
                             <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/home-images/about.jpg" className='pt30' />
+                                <img src="/images/home/about.jpg" className='pt30' />
                             </div>
                         </div>
                     </div>

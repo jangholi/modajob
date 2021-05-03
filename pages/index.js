@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-      <DefaultLayout headerImg='/headers/home-header.png' title={['Properties in KingSton', '& surrounding areas']} >
+      <DefaultLayout headerImg='/images/header/home-header.png' title={['Properties in KingSton', '& surrounding areas']} >
         <div className={styles.container}>
           <Head>
             <title>Home Page</title>
@@ -20,7 +20,7 @@ export default function Home() {
               <div className="sub-header">
                   <div className={"row m0 " + styles.header}>
                       <div className={"col-md-6 col-sm-12"}>
-                          <img src="/home-images/google.png" className='justify-content-center'/>
+                          <img src="/images/home/google.png" className='justify-content-center'/>
                       </div>
                       <div className={"col-md-6 d-flex justify-content-end"}>
                           <Navbar />
@@ -32,25 +32,25 @@ export default function Home() {
               <div className='full-width'>
                   <div className='row m0'>
                       <div className={"col-md-3 col-sm-6 " + styles["list-container"]}>
-                          <img src="/home-images/buy.jpg" alt=""/>
+                          <img src="/images/home/buy.jpg" alt=""/>
                           <div className={"d-flex full-height " + styles["blur-header"]}>
                               <p className='align-self-center'>BUY</p>
                           </div>
                       </div>
                       <div className={"col-md-3 col-sm-6 " + styles["list-container"]}>
-                          <img src="/home-images/rent.jpg" alt=""/>
+                          <img src="/images/home/rent.jpg" alt=""/>
                           <div className={"d-flex full-height " + styles["blur-header"]}>
                               <p className='align-self-center'>RENT</p>
                           </div>
                       </div>
                       <div className={"col-md-3 col-sm-6 " + styles["list-container"]}>
-                          <img src="/home-images/sell.jpg" alt=""/>
+                          <img src="/images/home/sell.jpg" alt=""/>
                           <div className={"d-flex full-height " + styles["blur-header"]}>
                               <p className='align-self-center'>SELL</p>
                           </div>
                       </div>
                       <div className={"col-md-3 col-sm-6 " + styles["list-container"]}>
-                          <img src="/home-images/landlords.jpg" alt=""/>
+                          <img src="/images/home/landlords.jpg" alt=""/>
                           <div className={"d-flex full-height " + styles["blur-header"]}>
                               <p className='align-self-center'>LANDLORDS</p>
                           </div>
@@ -81,7 +81,7 @@ export default function Home() {
                           </Link>
                       </div>
                       <div className={"col-md-7 col-sm-0 " + styles["about-right-section"]}>
-                          <img src="/home-images/about.jpg" />
+                          <img src="/images/home/about.jpg" />
                       </div>
                   </div>
               </div>

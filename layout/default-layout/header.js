@@ -5,7 +5,7 @@ const Header = ({img, title}) => (
     <div className={styles['header-container']}>
         <img className={styles.header} src={img} alt=""/>
         <div className={"d-flex flex-column " + styles['blur-header']}>
-            <img src="/logo.png" alt=""/>
+            <img src="/images/logo.png" alt=""/>
             <div className="d-flex full-height">
                 <p className='align-self-center'>
                     {title?.[0]} <br />

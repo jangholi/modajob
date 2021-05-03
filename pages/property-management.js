@@ -7,7 +7,7 @@ import Link from 'next/link'
 
 export default function PropertyManagement() {
     return (
-        <DefaultLayout headerImg='/property-management/header.jpg' title={['PROPERTY MANAGEMENT', 'WITH CARRINGTONES']} >
+        <DefaultLayout headerImg='/images/property-management/header.jpg' title={['PROPERTY MANAGEMENT', 'WITH CARRINGTONES']} >
             <div className={styles.container}>
                 <Head>
                     <title>Home Page</title>
@@ -20,7 +20,7 @@ export default function PropertyManagement() {
                     <div className="sub-header">
                         <div className='row m0'>
                             <div className={"col-md-1 col-sm-12 " + styles["about-sub-header"]}>
-                                <img src="/about-images/quots.png" />
+                                <img src="/images/quots.png" />
                             </div>
                             <div className={"col-md-9 col-sm-12 " + styles["about-sub-header"]}>
                                 <p>
@@ -49,7 +49,7 @@ export default function PropertyManagement() {
                                 </p>
                             </div>
                             <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/property-management/how-work.jpg" />
+                                <img src="/images/property-management/how-work.jpg" />
                             </div>
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function PropertyManagement() {
                     <div className={'full-width ' + styles["gray-bg"]}>
                         <div className={"d-flex row m0 " + styles["about"]}>
                             <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/property-management/what-need.jpg" />
+                                <img src="/images/property-management/what-need.jpg" />
                             </div>
                             <div className={"col-md-6 col-sm-12 " + styles['about-left-section']}>
                                 <p>

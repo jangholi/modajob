@@ -10,7 +10,7 @@ import {IconContext} from "react-icons";
 
 export default function Rent() {
     return (
-        <DefaultLayout headerImg='/headers/home-header.png' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
+        <DefaultLayout headerImg='/images/header/home-header.png' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
             <div>
                 <Head>
                     <title>Home Page</title>
@@ -152,7 +152,7 @@ export default function Rent() {
                                 </p>
                             </div>
                             <div className={"col-md-7 offset-md-1 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/home-images/about.jpg" />
+                                <img src="/images/home/about.jpg" />
                             </div>
                         </div>
                         <div className={"d-flex row m0 " + styles["about"]}>
@@ -201,7 +201,7 @@ export default function Rent() {
                                 </p>
                             </div>
                             <div className={"col-md-7 offset-md-1 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/home-images/about.jpg" />
+                                <img src="/images/home/about.jpg" />
                             </div>
                         </div>
                     </div>
@@ -210,7 +210,7 @@ export default function Rent() {
                     <div className={styles["quote-section"]}>
                         <div className='row m0'>
                             <div className={"col-md-1 col-sm-12 " + styles["quote"]}>
-                                <img src="/about-images/quots.png" />
+                                <img src="/images/quots.png" />
                             </div>
                             <div className={"col-md-9 col-sm-12 " + styles["quote"]}>
                                 <p>

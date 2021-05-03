@@ -10,7 +10,7 @@ import {IconContext} from "react-icons";
 
 export default function Buy() {
     return (
-        <DefaultLayout headerImg='/headers/home-header.png' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
+        <DefaultLayout headerImg='/images/header/home-header.png' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
             <div>
                 <Head>
                     <title>Home Page</title>
@@ -152,7 +152,7 @@ export default function Buy() {
                                 </p>
                             </div>
                             <div className={"col-md-7 offset-md-1 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/home-images/about.jpg" />
+                                <img src="/images/home/about.jpg" />
                             </div>
                         </div>
                         <div className={"d-flex row m0 " + styles["about"]}>
@@ -201,7 +201,7 @@ export default function Buy() {
                                 </p>
                             </div>
                             <div className={"col-md-7 offset-md-1 col-sm-0 " + styles["about-right-section"]}>
-                                <img src="/home-images/about.jpg" />
+                                <img src="/images/home/about.jpg" />
                             </div>
                         </div>
                     </div>

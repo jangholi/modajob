@@ -6,7 +6,7 @@ import React from "react";
 
 export default function About() {
   return (
-      <DefaultLayout headerImg='/headers/home-header.png' title={['ABOUT', 'CARRINGTONS']} >
+      <DefaultLayout headerImg='/images/header/home-header.png' title={['ABOUT', 'CARRINGTONS']} >
         <div>
           <Head>
             <title>Home Page</title>
@@ -19,7 +19,7 @@ export default function About() {
             <div className="sub-header">
               <div className='row m0'>
                 <div className={"col-md-1 col-sm-12 " + styles["about-sub-header"]}>
-                  <img src="/about-images/logo-icon.png" />
+                  <img src="/images/about/logo-icon.png" />
                 </div>
                 <div className={"col-md-9 col-sm-12 " + styles["about-sub-header"]}>
                   <p>
@@ -58,15 +58,15 @@ export default function About() {
             <div className='full-width'>
               <div className='row m0'>
                 <div className={"col-md-4 col-sm-6 " + styles["list-container"]}>
-                  <img src="/about-images/team1.jpg" alt=""/>
+                  <img src="/images/about/team1.jpg" alt=""/>
                   <div className={"d-flex full-height " + styles["blur-header"]}></div>
                 </div>
                 <div className={"col-md-4 col-sm-6 " + styles["list-container"]}>
-                  <img src="/about-images/team2.jpg" alt=""/>
+                  <img src="/images/about/team2.jpg" alt=""/>
                   <div className={"d-flex full-height " + styles["blur-header"]}></div>
                 </div>
                 <div className={"col-md-4 col-sm-6 " + styles["list-container"]}>
-                  <img src="/about-images/team3.jpg" alt=""/>
+                  <img src="/images/about/team3.jpg" alt=""/>
                   <div className={"d-flex full-height " + styles["blur-header"]}></div>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function About() {
             <div className="sub-header">
               <div className='row m0'>
                 <div className={"col-md-1 col-sm-12 " + styles["about-sub-header"]}>
-                  <img src="/about-images/quots.png" />
+                  <img src="/images/about/quots.png" />
                 </div>
                 <div className={"col-md-9 col-sm-12 " + styles["about-sub-header"]}>
                   <p>
@@ -120,7 +120,7 @@ export default function About() {
                     </span>
                     CORE VALUES
                   </p>
-                  <img src="/about-images/process.png" />
+                  <img src="/images/about/process.png" />
                 </div>
               </div>
             </div>

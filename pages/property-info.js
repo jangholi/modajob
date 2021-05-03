@@ -97,7 +97,7 @@ export default function PropertyInfo() {
 
 
     return (
-        <DefaultLayout headerImg='/headers/home-header.png' >
+        <DefaultLayout headerImg='/images/header/home-header.png' >
             <div>
                 <Head>
                     <title>Home Page</title>
@@ -110,7 +110,7 @@ export default function PropertyInfo() {
                         <div className={"row m0"}>
                             <div className={"col-md-8 col-sm-12 d-flex " + styles.header}>
                                 <a href='/' className='mr-5'>
-                                    <img src="left-arrow.png" width='25'/>
+                                    <img src="/images/left-arrow.png" width='25'/>
                                     BACK TO RESULTS
                                 </a>
                                 <span className='align-self-center'>
