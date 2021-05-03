@@ -15,6 +15,7 @@
     "react-bootstrap": "^1.5.2",
     "react-dom": "17.0.2",
     "react-icons": "^4.2.0",
+    "react-image-gallery": "^1.0.9",
     "sass": "^1.32.11"
   },
   "engines": {
