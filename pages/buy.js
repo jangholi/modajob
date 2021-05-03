@@ -10,10 +10,10 @@ import {IconContext} from "react-icons";
 
 export default function Buy() {
     return (
-        <DefaultLayout headerImg='/images/header/home-header.png' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
+        <DefaultLayout headerImg='/images/buy/header.jpg' title={['FIND YOUR DREAM HOME', 'WITH CARRINGTONS']} >
             <div>
                 <Head>
-                    <title>Home Page</title>
+                    <title>Buy</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
@@ -26,7 +26,7 @@ export default function Buy() {
                                     Buy
                                 </p>
                             </div>
-                            <div className={"col-md-8 d-flex"}>
+                            <div className={"col-md-10 d-flex"}>
                                 <form className="row g-3 full-width align-self-center">
                                     <div className="col">
                                         <input
@@ -49,7 +49,7 @@ export default function Buy() {
                                     </div>
                                 </form>
                             </div>
-                            <div className={"col-md-3 d-flex justify-content-end"}>
+                            <div className={"col-lg-1 col-md-1 col-sm-12 order-first order-md-last d-flex justify-content-end"}>
                                 <Navbar />
                             </div>
                         </div>
@@ -210,7 +210,7 @@ export default function Buy() {
                     <div className={styles["quote-section"]}>
                         <div className='row m0'>
                             <div className={"col-md-1 col-sm-12 " + styles["quote"]}>
-                                <img src="/about-images/quots.png" />
+                                <img src="/images/quotation.png" />
                             </div>
                             <div className={"col-md-9 col-sm-12 " + styles["quote"]}>
                                 <p>

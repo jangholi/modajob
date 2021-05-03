@@ -16,7 +16,7 @@ function NavbarMenu() {
                    </Link>
                    <Link href="/about">
                        <a>
-                           ABOUT US
+                           ABOUT
                        </a>
                    </Link>
                    <Link href="/buy">
