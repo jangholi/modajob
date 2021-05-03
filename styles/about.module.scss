@@ -1,22 +1,5 @@
 @import "variables";
 
-.about-sub-header{
-  padding: 40px;
-  p{
-     color: white;
-     font-size: 0.85rem;
-     color: white;
-     &:last-child{
-       margin-bottom: 0;
-     }
-  }
-  img{
-    width: 81px;
-    display: inline;
-    float: left;
-    margin-right: 23px;
-  }
-}
 .meat-team{
   padding: 40px;
   p{
@@ -26,20 +9,10 @@
     }
   }
 }
-.list-container{
+
+.video-container{
   max-height: 70vh;
   padding: 0;
-
-  &:nth-child(even){
-    .blur-header{
-      background-color: #48484aa1;
-    }
-  }
-  &:nth-child(odd){
-    .blur-header{
-      background-color: #1e1d1dd9;
-    }
-  }
 
   >img{
     width: 100%;
@@ -47,7 +20,7 @@
     object-fit: cover;
     object-position: bottom;
   }
-  .blur-header{
+  .blur-div{
     position: absolute;
     top: 0;
     right: 0;
@@ -62,7 +35,18 @@
       height: fit-content;
     }
   }
+  &:nth-child(even){
+    .blur-div{
+      background-color: #48484aa1;
+    }
+  }
+  &:nth-child(odd){
+    .blur-div{
+      background-color: #1e1d1dd9;
+    }
+  }
 }
+
 .team-description{
   padding: 40px;
   &:nth-child(odd){
@@ -83,12 +67,32 @@
     }
   }
 }
+
+.about-section{
+  padding: 40px;
+  p{
+    color: white;
+    font-size: 0.85rem;
+    color: white;
+    &:last-child{
+      margin-bottom: 0;
+    }
+  }
+  img{
+    width: 81px;
+    display: inline;
+    float: left;
+    margin-right: 23px;
+  }
+}
+
 .process-section{
   text-align: center;
   img{
     width: 60%;
   }
 }
+
 @media only screen and (max-width: 850px) {
   .process-section{
     img{
