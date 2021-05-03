@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
       <DefaultLayout
-          headerImg='/images/header/home-header.png'
+          headerImg='/images/home/header.png'
           title={['PROPERTIES IN KINGSTON', '& SURROUNDING AREAS']} >
         <div>
           <Head>
@@ -24,7 +24,7 @@ export default function Home() {
                       <div className={"col-md-6 col-sm-12"}>
                           <img src="/images/home/google.png" className='justify-content-center'/>
                       </div>
-                      <div className={"col-md-6 d-flex justify-content-end"}>
+                      <div className={"col-md-6 order-first order-md-last  d-flex justify-content-end"}>
                           <Navbar />
                       </div>
                   </div>
