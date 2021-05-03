@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Property-management.module.scss'
+import styles from '../styles/property-management.module.scss'
 import DefaultLayout from '../layout/default-layout'
 import Navbar from "../components/navbar";
 import React from "react";

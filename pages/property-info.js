@@ -6,7 +6,6 @@ import {FaBed, FaBath, FaHeart} from 'react-icons/fa'
 import {GiSofa} from 'react-icons/gi'
 import {IconContext} from "react-icons";
 import ImageGallery from 'react-image-gallery';
-
 import styles from '../styles/property-info.module.scss'
 
 export default function PropertyInfo() {
