@@ -1,5 +1,6 @@
 @import "variables";
 @import "fonts";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 html,
 body {
@@ -51,6 +52,9 @@ input, textarea, select{
 .orange-color{
   color: $orange;
 }
+.mr15{
+  margin-right: 15px;
+}
 .mt30{
   margin-top: 30px;
 }
@@ -59,6 +63,9 @@ input, textarea, select{
 }
 .mb2{
   margin-bottom: 2px;
+}
+.mb70{
+  margin-bottom: 70px;
 }
 .m0{
   margin: 0!important;
@@ -91,4 +98,28 @@ input, textarea, select{
 }
 .pull-right{
   float: right;
+}
+.yellow-btn{
+  background-color: $orange!important;
+  font-size: 0.82rem!important;
+  border-radius: 0!important;
+  color: black!important;
+  font-family: DIN-Bold;
+}
+.gray-btn{
+  background-color: #454848!important;
+  font-size: 0.82rem!important;
+  border-radius: 0!important;
+  color: white!important;
+  font-family: DIN-Bold;
+}
+.image-gallery-content .image-gallery-slide .image-gallery-image{
+  width: 100%!important;
+  height: auto!important;
+  min-height: 50vh!important;
+  max-height: 80vh!important;
+  object-fit: cover;
+}
+.image-gallery-thumbnail{
+  width: 20%;
 }
