@@ -1,5 +1,5 @@
 import React from "react"
-import styles from '../../styles/header.module.scss'
+import styles from './header.module.scss'
 
 const Header = ({img, title}) => (
     <div className={styles['header-container']}>
