@@ -1,12 +1,12 @@
 @import "variables";
 
-.about{
+.detail{
   padding-top: 50px!important;
   padding-bottom: 50px!important;
   &:nth-child(even){
     background-color: #ebebec;
   }
-  .about-left-section{
+  .detail-left-section{
     padding: 40px;
     .title{
       margin-left: 35px;
@@ -49,7 +49,7 @@
        }
     }
   }
-  .about-right-section{
+  .detail-right-section{
     padding: 40px;
     .add-to-list{
        font-size: 0.77rem;

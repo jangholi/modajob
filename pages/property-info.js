@@ -96,7 +96,7 @@ export default function PropertyInfo() {
 
 
     return (
-        <DefaultLayout headerImg='/images/header/home-header.png' >
+        <DefaultLayout headerImg='/images/property-info/header.jpg' >
             <div>
                 <Head>
                     <title>Home Page</title>
@@ -107,7 +107,7 @@ export default function PropertyInfo() {
                     {/* sub header */}
                     <div className="sub-header pl40">
                         <div className={"row m0"}>
-                            <div className={"col-md-8 col-sm-12 d-flex " + styles.header}>
+                            <div className={"col-md-8 d-flex " + styles.header}>
                                 <a href='/' className='mr-5'>
                                     <img src="/images/left-arrow.png" width='25'/>
                                     BACK TO RESULTS
@@ -123,7 +123,7 @@ export default function PropertyInfo() {
                                     SHORTLIST
                                 </span>
                             </div>
-                            <div className={"col-md-3 d-flex justify-content-end"}>
+                            <div className={"col-md-3 order-first order-md-last  d-flex justify-content-end"}>
                                 <Navbar />
                             </div>
                         </div>
@@ -144,10 +144,10 @@ export default function PropertyInfo() {
                         </div>
                     </div>
 
-                    {/* list */}
+                    {/* detaile section */}
                     <div className='full-width'>
-                        <div className={"d-flex row m0 " + styles["about"]}>
-                            <div className={"col-md-7 col-sm-12 " + styles['about-left-section']}>
+                        <div className={"d-flex row m0 " + styles["detail"]}>
+                            <div className={"col-md-7 col-sm-12 " + styles['detail-left-section']}>
                                 <div className="row">
                                     <div className="col-md-12">
                                         <p className={styles.title}>
@@ -211,7 +211,7 @@ export default function PropertyInfo() {
                                     </div>
                                 </div>
                             </div>
-                            <div className={"col-md-4 offset-md-1 " + styles["about-right-section"]}>
+                            <div className={"col-md-4 offset-md-1 " + styles["detail-right-section"]}>
                                 <p className={styles["add-to-list"]}>
                                     <span className='mr15'>
                                         <FaHeart />
