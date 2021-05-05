@@ -10,6 +10,7 @@ import styles from '../styles/property-info.module.scss'
 
 export default function PropertyInfo() {
     const [images, setImages] = React.useState([]);
+    const [mapSrc, setMapSrc] = React.useState('');
 
     React.useEffect(() =>{
 
@@ -71,7 +72,12 @@ export default function PropertyInfo() {
                 thumbnail: 'https://picsum.photos/id/1019/250/150/',
             },
         ];
-        setImages(images)
+        setImages(images);
+
+        let latitude = 98876666;
+        let longitude = 98876666;
+        let mapSrc = `https://maps.google.com/maps?q=${latitude},${longitude}&t=&z=13&ie=UTF8&iwloc=&output=embed`;
+        setMapSrc(mapSrc)
     }, []);
 
     let renderLeftNav = (onClick, disabled) => {
@@ -229,7 +235,10 @@ export default function PropertyInfo() {
                                     </span>
                                 </p>
                                 <div className={styles["map-container"]}>
-                                    dddd
+                                    <iframe width="100%" height="300px" id="gmap_canvas" title="mapFrame"
+                                            src={mapSrc}
+                                            frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0"></iframe>
+                                    <a href="https://www.emojilib.com"></a>
                                 </div>
                             </div>
                         </div>
