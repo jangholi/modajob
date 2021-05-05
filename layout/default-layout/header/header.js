@@ -1,7 +1,7 @@
 import React from "react"
 import styles from './header.module.scss'
 
-const Header = ({img, title}) => (
+const Header = ({img, title = []}) => (
     <div className={styles['header-container']}>
         <img className={styles.header} src={img} alt=""/>
         <div className={"d-flex flex-column " + styles['blur-header']}>
