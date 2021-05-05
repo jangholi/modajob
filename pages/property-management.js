@@ -10,24 +10,24 @@ export default function PropertyManagement() {
         <DefaultLayout headerImg='/images/property-management/header.jpg' title={['PROPERTY MANAGEMENT', 'WITH CARRINGTONES']} >
             <div className={styles.container}>
                 <Head>
-                    <title>Home Page</title>
+                    <title>Property Management</title>
                     <link rel="icon" href="/favicon.ico" />
                 </Head>
 
-                <main className={styles.main}>
+                <main>
 
                     {/* sub header */}
                     <div className="sub-header">
                         <div className='row m0'>
-                            <div className={"col-md-1 col-sm-12 " + styles["about-sub-header"]}>
-                                <img src="/images/quots.png" />
+                            <div className={"col-lg-1 col-md-2 col-sm-3 " + styles["about-sub-header"]}>
+                                <img src="/images/quotation.png" />
                             </div>
-                            <div className={"col-md-9 col-sm-12 " + styles["about-sub-header"]}>
+                            <div className={"col-lg-10 col-md-9 col-sm-9 " + styles["about-sub-header"]}>
                                 <p>
                                     As a landlord I can certainly say that Carringtons have provided an extremely professional and personal service. I have used larger agents with several offices previously, but would certainly recommend Carringtons in preference to them in the Kingston Hill/Norbiton/Ham area.
                                 </p>
                             </div>
-                            <div className={"col-md-2 d-flex justify-content-end"}>
+                            <div className={"col-lg-1 col-md-1 col-sm-12 order-first order-md-last d-flex justify-content-end mt-3"}>
                                 <Navbar />
                             </div>
                         </div>
@@ -35,8 +35,8 @@ export default function PropertyManagement() {
 
                     {/* how it works */}
                     <div className='full-width'>
-                        <div className={"d-flex row m0 " + styles["about"]}>
-                            <div className={"col-md-6 col-sm-12 " + styles['about-left-section']}>
+                        <div className={"d-flex row m0 " + styles["property-description"]}>
+                            <div className={"col-md-6 col-sm-12 " + styles['property-description-left-section']}>
                                 <p>
                               <span className='orange-color'>
                                 HOW
@@ -48,7 +48,7 @@ export default function PropertyManagement() {
                                     About usTum lam, as inctur, eiumquae venisquae. Nam non cus ma quunt pe pro conse landit repratia que nonsectate nis enia dolorep.Aquis volupta consequate velit essimus dis ex earia derunt, temperum volorep ratem. Itae volenducia soluptatur re sed ut que nost fugiass imincipit mo tem is vel idit adit omnis enesequiate volo occum ius cum re voluptatent debit miliquae delenis am
                                 </p>
                             </div>
-                            <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
+                            <div className={"col-md-6 col-sm-0 " + styles["property-description-right-section"]}>
                                 <img src="/images/property-management/how-work.jpg" />
                             </div>
                         </div>
@@ -56,11 +56,11 @@ export default function PropertyManagement() {
 
                     {/* what landlords needs */}
                     <div className={'full-width ' + styles["gray-bg"]}>
-                        <div className={"d-flex row m0 " + styles["about"]}>
-                            <div className={"col-md-6 col-sm-0 " + styles["about-right-section"]}>
+                        <div className={"d-flex row m0 " + styles["property-description"]}>
+                            <div className={"col-md-6 col-sm-0 " + styles["property-description-right-section"]}>
                                 <img src="/images/property-management/what-need.jpg" />
                             </div>
-                            <div className={"col-md-6 col-sm-12 " + styles['about-left-section']}>
+                            <div className={"col-md-6 col-sm-12 " + styles['property-description-left-section']}>
                                 <p>
                               <span className='orange-color'>
                                 WHAT

@@ -1,7 +1,7 @@
-.about{
+.property-description{
   padding-top: 50px!important;
   padding-bottom: 50px!important;
-  .about-left-section{
+  .property-description-left-section{
     padding: 40px;
     p{
       font-size: 0.75rem;
@@ -21,7 +21,7 @@
       color: black;
     }
   }
-  .about-right-section{
+  .property-description-right-section{
     padding: 0;
     >img{
       width: 100%;
@@ -54,7 +54,7 @@
 }
 .gray-bg{
   background-color: #454848;
-  .about-left-section{
+  .property-description-left-section{
     p{
       color: white!important;
     }
