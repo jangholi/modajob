@@ -1,125 +1,39 @@
 @import "variables";
-@import "fonts";
-@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import 'https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css';
+
+@font-face {
+  font-family: IRANYekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url('/fonts/IRYekan.eot');
+  src: url('/fonts/IRYekan.eot?#iefix') format('embedded-opentype'), /* IE6-8 */
+  url('/fonts/IRYekan.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+  url('/fonts/IRYekan.ttf') format('truetype');
+}
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-size: 18px;
-  font-family: DIN!important;
+  font-size: 12px;
+  direction: rtl;
+}
+body{
+  font-family: IRANYekan!important;
+  background-color: #f5f5f5!important;
 }
 
-@media only screen and (max-width: 800px) {
-  html,
-  body {
-    font-size: 13px!important;
-  }
-}
-
-input, textarea, select{
-  color: black!important;
-  background-color: #454848!important;
-  border-radius: 0!important;
-  border: 0!important;
-  &:focus{
-    background-color: #454848!important;
-    color: black!important;
-  }
-  &:active{
-    background-color: #454848!important;
-    color: black!important;
-  }
-}
 ::-webkit-input-placeholder { /* Edge */
-  color: black!important;
+  //color: #a6a6a6;
+  color: red;
+  font-size: 1rem;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-  color: black!important;
-}
+  //color: #a6a6a6;
+  color: red;
+  font-size: 1rem;    }
 ::placeholder {
-  color: black!important;
-}
-
-.full-height{
-  height: 80vh !important;
-}
-
-.full-width{
-  width: 100%;
-}
-
-.orange-color{
-  color: $orange;
-}
-.mr15{
-  margin-right: 15px;
-}
-.mt30{
-  margin-top: 30px;
-}
-.mt2{
-  margin-top: 2px;
-}
-.mb2{
-  margin-bottom: 2px;
-}
-.mb70{
-  margin-bottom: 70px;
-}
-.m0{
-  margin: 0!important;
-}
-.p40{
-  padding: 40px;
-}
-.pt30{
-  padding-top: 30px;
-}
-.pt15{
-  padding-top: 15px;
-}
-.pb15{
-  padding-bottom: 15px;
-}
-.pl40{
-  padding-left: 40px;
-}
-.sub-header{
-  width: 100%;
-  background-color: black;
-}
-
-.black-title{
-  font-size: 1.67rem;
-  font-weight: bold;
-  color: black;
-  font-family: DIN-Black;
-}
-.pull-right{
-  float: right;
-}
-.yellow-btn{
-  background-color: $orange!important;
-  font-size: 0.82rem!important;
-  border-radius: 0!important;
-  color: black!important;
-  font-family: DIN-Bold;
-}
-.gray-btn{
-  background-color: #454848!important;
-  font-size: 0.82rem!important;
-  border-radius: 0!important;
-  color: white!important;
-  font-family: DIN-Bold;
-}
-.image-gallery-content .image-gallery-slide .image-gallery-image{
-  width: 100%!important;
-  height: auto!important;
-  min-height: 50vh!important;
-  max-height: 80vh!important;
-  object-fit: cover;
-}
-.image-gallery-thumbnail{
-  width: 20%;
+  //color: #a6a6a6;
+  color: red;
+  font-size: 1rem;
 }

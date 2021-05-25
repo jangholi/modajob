@@ -1,120 +1,122 @@
 import React from "react"
 import styles from './footer.module.scss'
-import { IconContext } from "react-icons";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaInstagram, FaYoutube } from "react-icons/fa";
+import {Col, Row, InputGroup, FormControl} from 'react-bootstrap'
+import Link from 'next/link'
 
 const Footer = () => {
-    const [name, setName] = React.useState('');
-    const [email, setEmail] = React.useState('');
-    const [phone, setPhone] = React.useState('');
-    const [enquiry, setEnquiry] = React.useState('');
 
     return(
         <div>
-            <div className={'d-flex justify-content-center row m0 ' + styles.footer}>
-                <div className="col-md-5 col-sm-12">
-                    <p className={styles['form-title']}>
-                        <span className='orange-color'>
-                            CONTACT
-                        </span> CARRINGTONS
-                    </p>
-                    <form>
-                        <div className="form-row">
-                            <div className="col">
-                                <input
+            <Col md={12} className={styles['footer']}>
+                <Col md={{span:8, offset:2}} className={styles['register']}>
+                    <Row>
+                        <Col md={4} sm={12} className="d-flex align-items-center">
+                            <p className={styles['title']}> عضویت در <div class="w-100 d-none d-md-block"/>خبرنامه مداجاب</p>
+                        </Col>
+                        <Col md={8} sm={12} className="d-flex align-items-center">
+                            <InputGroup className={styles['input-group']}>
+                                <FormControl
                                     type="text"
-                                    className="form-control"
-                                    placeholder="Name"
-                                    value={name}
-                                    onChange={(e) => setName(e.target.value)}
+                                    placeholder="ایمیل خود را وارد نمایید ..."
+                                    className={styles['input-group-prepend']}
                                 />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="col">
-                                <input
-                                    type="email"
-                                    className="form-control"
-                                    placeholder="Email"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                />
-                            </div>
-                            <div className="col">
-                                <input
-                                    type="number"
-                                    className="form-control"
-                                    placeholder="Phone"
-                                    value={phone}
-                                    onChange={(e) => setPhone(e.target.value)}
-                                />
-                            </div>
-                        </div>
-                        <div className="form-row">
-                            <div className="col">
-                            <textarea
-                                className="form-control"
-                                placeholder='Enquiry'
-                                rows="3"
-                                value={enquiry}
-                                onChange={(e) => setEnquiry(e.target.value)}
-                            />
-                            </div>
-                        </div>
-                    </form>
-                </div>
-                <div className="col-md-6 offset-md-1 col-sm-12 offset-sm-0">
-                    <p className={styles['contact-info-title'] + 'mt30'}>Sales</p>
-                    <p  className={styles['contact-info-text']}>0208 549 7788 <br/>
-                        sales@carringtonsproperty.com
-                    </p>
-
-                    <p className={styles['contact-info-title']}>Lettings</p>
-                    <p className={styles['contact-info-text']}>0208 549 3366 <br/>
-                        lettings@carringtonsproperty.com
-                    </p>
-
-                    <IconContext.Provider value={{ color: 'black', size: '14px', backgroundColor: 'red' }}>
-                        <div className={styles['icon-container']}>
-                            <FaFacebookF />
-                        </div>
-                        <div className={styles['icon-container']}>
-                            <FaTwitter />
-                        </div>
-                        <div className={styles['icon-container']}>
-                            <FaLinkedinIn />
-                        </div>
-                        <div className={styles['icon-container']}>
-                            <FaInstagram />
-                        </div>
-                        <div className={styles['icon-container']}>
-                            <FaYoutube />
-                        </div>
-                    </IconContext.Provider>
-
-                    <p className={styles['contact-info-text'] + ' '+ styles['address']}>
-                        5-7 Kingston Hill  |  Kingston upon Thames  |  Surrey  |  KT2 7PW
-                    </p>
-
-                    <a href="/">
-                        Click here to find us
-                    </a>
-                </div>
-            </div>
-            <div className={styles["sub-footer"]}>
-                <div className='row'>
-                    <div className={"col-md-6 " + styles['left-container']}>
-                        <p>
-                            Carrintons
-                        </p>
-                    </div>
-                    <div className={"col-md-6 d-flex justify-content-end " + styles['right-container']}>
-                       <p className='align-self-center'>
-                           Copyright2021.Company Number.
-                       </p>
-                    </div>
-                </div>
-            </div>
+                                <InputGroup.Prepend>
+                                    <InputGroup.Text className={styles['input-group-text']}>ارسال کنید</InputGroup.Text>
+                                </InputGroup.Prepend>
+                            </InputGroup>
+                        </Col>
+                    </Row>
+                </Col>
+                <Col md={{span:10, offset:1}} className={'text-center pt4 pb4'}>
+                    <Row className={styles['footer-phone']}>
+                        <Col md={6} xs={6} className={styles.right}>
+                           <p>
+                               پشتیبانی آگهی
+                           </p>
+                            <p>
+                                support@modajob.ir
+                            </p>
+                        </Col>
+                        <Col md={6} xs={6} className={styles.left}>
+                           <p>
+                               پشتیبانی واتس آپ
+                           </p>
+                            <p>
+                                09026621005
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row className={styles.links}>
+                        <Col md={3} sm={6} xs={6}>1</Col>
+                        <Col md={3} sm={6} xs={6}>
+                            <p className={styles.title}>مداجاب</p>
+                            <Link href={''}>
+                                <a>تماس با مداجاب</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>درباره ما مداجاب</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>همکاری با ما</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>وبلاگ</a>
+                            </Link>
+                        </Col>
+                        <Col md={3} sm={6} xs={6}>
+                            <p className={styles.title}>کارفرمایان</p>
+                            <Link href={''}>
+                                <a>درج آگهی استخدام</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>ورود به بخش کارفرمایان</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>سؤالات متداول</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>راهنمای استفاده</a>
+                            </Link>
+                        </Col>
+                        <Col md={3} sm={6} xs={6}>
+                            <p className={styles.title}>کارجویان</p>
+                            <Link href={''}>
+                                <a>فرصت های شغلی</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>ورود / ثبت‌نام کارجو</a>
+                            </Link>
+                            <Link href={''}>
+                                <a> ایمیل‌های اطلاع‌رسانی</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>رزومه‌ساز آنلاین</a>
+                            </Link>
+                            <Link href={''}>
+                                <a>آشنایی با شرکت‌ها</a>
+                            </Link>
+                        </Col>
+                    </Row>
+                </Col>
+            </Col>
+            <Col className={styles["sub-footer"]}>
+                <Row>
+                    <Col md={{span:10, offset:1}}>
+                        <Row>
+                            <Col md={6} sm={7} className={"d-flex justify-content-start " + styles['right-container']}>
+                                <p className='align-self-center'>
+                                    تمامی حقوق این وبسایت برای مٌداجاب محفوظ است.
+                                </p>
+                            </Col>
+                            <Col md={6} sm={5}  className={styles['left-container']}>
+                                <p>
+                                    Copyright 2018 modajob.com
+                                </p>
+                            </Col>
+                        </Row>
+                    </Col>
+                </Row>
+            </Col>
         </div>
     )
 }
