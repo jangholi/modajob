@@ -2,9 +2,9 @@ import React from "react"
 import Header from './header/header'
 import Footer from './footer/footer'
 
-const DefaultLayout = ({children, headerImg, title}) => (
+const DefaultLayout = ({children}) => (
     <>
-        <Header img={headerImg} title={title} />
+        <Header />
         {children}
         <Footer />
     </>
