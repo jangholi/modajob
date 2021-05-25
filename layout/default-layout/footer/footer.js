@@ -11,7 +11,7 @@ const Footer = () => {
                 <Col md={{span:8, offset:2}} className={styles['register']}>
                     <Row>
                         <Col md={4} sm={12} className="d-flex align-items-center">
-                            <p className={styles['title']}> عضویت در <div class="w-100 d-none d-md-block"/>خبرنامه مداجاب</p>
+                            <p className={styles['title']}> عضویت در <span className="w-100 d-none d-md-block"/>خبرنامه مداجاب</p>
                         </Col>
                         <Col md={8} sm={12} className="d-flex align-items-center">
                             <InputGroup className={styles['input-group']}>
@@ -50,49 +50,49 @@ const Footer = () => {
                         <Col md={3} sm={6} xs={6}>1</Col>
                         <Col md={3} sm={6} xs={6}>
                             <p className={styles.title}>مداجاب</p>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>تماس با مداجاب</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>درباره ما مداجاب</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>همکاری با ما</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>وبلاگ</a>
                             </Link>
                         </Col>
                         <Col md={3} sm={6} xs={6}>
                             <p className={styles.title}>کارفرمایان</p>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>درج آگهی استخدام</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>ورود به بخش کارفرمایان</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>سؤالات متداول</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>راهنمای استفاده</a>
                             </Link>
                         </Col>
                         <Col md={3} sm={6} xs={6}>
                             <p className={styles.title}>کارجویان</p>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>فرصت های شغلی</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>ورود / ثبت‌نام کارجو</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a> ایمیل‌های اطلاع‌رسانی</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>رزومه‌ساز آنلاین</a>
                             </Link>
-                            <Link href={''}>
+                            <Link href={'/'}>
                                 <a>آشنایی با شرکت‌ها</a>
                             </Link>
                         </Col>
