@@ -1,42 +1,53 @@
 import React from 'react'
 import {Navbar, Nav} from 'react-bootstrap'
-import styles from '../../styles/Navbar-component.module.scss'
 import Link from 'next/link'
+import styles from "./Navbar.module.scss";
 
 function NavbarMenu() {
    return(
-       <Navbar className = {"align-self-center " + styles.navbar} expand="xs">
+       <Navbar expand="lg">
            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-           <Navbar.Collapse className={styles.collapse} id="basic-navbar-nav">
-               <Nav className="mr-auto">
+           <Navbar.Collapse id="basic-navbar-nav">
+               <Nav className={"mr-auto d-flex justify-content-between full-width " + styles['navbar']} >
                    <Link href="/">
                        <a>
-                           HOME
+                           صفحه اصلی
                        </a>
                    </Link>
-                   <Link href="/about">
+                   |
+                   <Link href="/jobs">
                        <a>
-                           ABOUT
+                           جستجوی مشاغل
                        </a>
                    </Link>
-                   <Link href="/buy">
+                   |
+                   <Link href="/cv">
                        <a>
-                           BUY
+                           رزومه‌ساز
                        </a>
                    </Link>
-                   <Link href="/rent">
+                   |
+                   <Link href="/employee">
                        <a>
-                           RENT
+                           ویژه کارجویان
                        </a>
                    </Link>
-                   <Link href="/sell">
+                   |
+                   <Link href="/employer">
                        <a>
-                           SELL
+                           بخش کارفرمایان
                        </a>
                    </Link>
-                   <Link href="/login">
+                   |
+                   <Link href="/blog">
                        <a>
-                           LOG IN
+                           مجله تصویری
+                       </a>
+                   </Link>
+                   |
+                   <Link href="https://modaacademy.ir" >
+                       <a target='_blank'>
+                           آموزش تخصصی
                        </a>
                    </Link>
                </Nav>

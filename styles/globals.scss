@@ -23,17 +23,14 @@ body{
   background-color: #f5f5f5!important;
 }
 
-::-webkit-input-placeholder { /* Edge */
-  //color: #a6a6a6;
-  color: red;
-  font-size: 1rem;
+a{
+  text-decoration: none!important;
 }
-:-ms-input-placeholder { /* Internet Explorer 10-11 */
-  //color: #a6a6a6;
-  color: red;
-  font-size: 1rem;    }
-::placeholder {
-  //color: #a6a6a6;
-  color: red;
-  font-size: 1rem;
+
+.full-width{
+  width: 100%;
+}
+
+.pb15{
+  padding-bottom: 15px;
 }
