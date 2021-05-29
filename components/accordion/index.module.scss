@@ -1,0 +1,21 @@
+.accordion{
+  .card-header{
+    background-color: white;
+    border-bottom: 1px solid #e4e4e4;
+  }
+  &:first-child{
+    .card-header{
+      border-top-right-radius: 12px;
+      border-top-left-radius: 12px;
+    }
+  }
+  &:last-child{
+    .card-header{
+      //border-bottom-right-radius: 12px;
+      //border-bottom-left-radius: 12px;
+    }
+  }
+  p{
+    margin-bottom: 0!important;
+  }
+}
