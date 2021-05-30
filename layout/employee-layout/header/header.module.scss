@@ -1,0 +1,37 @@
+@import 'styles/variables';
+
+.header{
+  background-color: white;
+}
+
+.top-header{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  img{
+    width: 160px;
+  }
+  .title{
+    font-size: 1.33rem;
+    padding-right: 70px;
+    padding-left: 20px;
+  }
+  .login{
+    font-size: 0.8888rem;
+    float: left;
+    padding: 10px 25px;
+    a{
+      color: #252525!important;
+    }
+  }
+  .register-btn{
+    float: left;
+    background-color: $blue;
+    font-size: 0.888rem;
+    border-radius: 12px;
+    border: 0;
+    padding: 10px 20px;
+    a{
+      color: white!important;
+    }
+  }
+}

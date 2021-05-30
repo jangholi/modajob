@@ -1,0 +1,32 @@
+@import "styles/variables";
+
+.sub-footer{
+  background-color: white;
+  width: 100%;
+  color: #252525;
+  padding: 20px 30px;
+  border-top: 2px solid #ebebeb;
+
+  .left-container{
+    text-align: left;
+    font-size: 1rem;
+  }
+  .right-container{
+    text-align: right;
+    font-size: 1rem;
+    p{
+      direction: rtl;
+    }
+  }
+  p{
+    margin-bottom: 0;
+  }
+
+  .navbar{
+    width: 100%;
+    font-size: 0.944rem;
+    a{
+      color: #252525!important;
+    }
+  }
+}
