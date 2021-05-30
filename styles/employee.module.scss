@@ -1,0 +1,73 @@
+@import "variables";
+@import "mixin";
+
+.sub-header{
+  background-color: $light-blue;
+  margin-bottom: 20px;
+}
+.searchbox{
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 1rem;
+  svg{
+    margin-left: 10px;
+  }
+}
+.search-btn{
+  padding: 9px 27px;
+  border-radius: 12px;
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: #ebebeb;
+  color: #0072bc;
+  border: 0;
+  float: left;
+  &:hover{
+    background-color: #ebebeb;
+    color: #0072bc;
+    border: 0;
+  }
+  &:active {
+    background-color: #ebebeb!important;
+    color: #0072bc!important;
+    border: 0;
+  }
+  &:focus {
+    background-color: #ebebeb!important;
+    color: #0072bc!important;
+    border: 0;
+    box-shadow: none!important;
+  }
+  svg{
+    font-size: 2rem;
+  }
+}
+.filter{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  img{
+    width: 100%;
+  }
+}
+.result{
+  @include card;
+  .title{
+    font-size: 0.8125rem;
+    font-weight: bold;
+    color: #252525;
+    margin-bottom: 22px;
+  }
+  .description{
+    font-size: 0.625rem;
+    color: #6f7a7c;
+  }
+  img{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 14px;
+  }
+}
